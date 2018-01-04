@@ -227,9 +227,9 @@ public class SetupWizardUtils {
         } else if (!SetupWizardUtils.isMultiSimDevice(context)) {
             disableComponent(context, ChooseDataSimActivity.class);
         }
-        if (!SetupWizardUtils.hasWifi(context)) {
+        //if (!SetupWizardUtils.hasWifi(context)) {
             disableComponent(context, WifiSetupActivity.class);
-        }
+        //}
     }
 
     public static void disableComponentsForGMS(Context context) {
