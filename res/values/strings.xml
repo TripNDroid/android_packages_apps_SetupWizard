@@ -104,4 +104,8 @@
     <string name="lockscreen_setup_summary"><b>Protect this device</b> and require a PIN, pattern, or password to unlock the screen</string>
     <string name="lockscreen_setup_screen_lock_setup">Set up</string>
 
+    <string name="continue_to_enable_accessibility">Continu to enable accessibility</string>
+    <string name="enable_accessibility_canceled">Enable accessibility canceled</string>
+    <string name="accessibility_enabled">Accessibility enabled</string>
+
 </resources>

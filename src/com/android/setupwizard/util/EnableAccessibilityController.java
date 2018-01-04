@@ -38,7 +38,7 @@ import android.view.MotionEvent;
 import android.view.accessibility.AccessibilityManager;
 import android.view.accessibility.IAccessibilityManager;
 
-import com.android.internal.R;
+import com.android.setupwizard.R;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -277,9 +277,6 @@ public class EnableAccessibilityController {
                 Settings.Secure.putIntForUser(resolver, Settings.Secure.TOUCH_EXPLORATION_ENABLED,
                         1, userId);
             }
-            // Enable accessibility script injection (AndroidVox) for web content.
-            Settings.Secure.putIntForUser(resolver, Settings.Secure.ACCESSIBILITY_SCRIPT_INJECTION,
-                    1, userId);
             // Turn on accessibility mode last.
             Settings.Secure.putIntForUser(resolver, Settings.Secure.ACCESSIBILITY_ENABLED,
                     1, userId);
